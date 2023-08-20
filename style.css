@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.mB{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(120deg, rgb(12, 63, 129), rgb(129, 54, 214));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bckgndB{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 500px;
+    background-color: rgb(20, 10, 230);
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    height: 150px;
+    width: 100px;
+    background-color: black;
+    border-radius: 7px;
+    box-shadow: 0px 1px 6px 3px rgba(0, 0, 0, 0.123);
+    color: aliceblue;
+    text-align: center;
+}
+.dot{
+    font-size: 65px;
+    color: rgb(243, 243, 255);
+}
+.time{
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-size: 16px
+}
+
+#horas{
+    padding-top: 16px;
+    font-size: 60px;
+}
+#minutos{
+    padding-top: 16px;
+    font-size: 60px;
+}
+#segundos{
+    padding-top: 16px;
+    font-size: 60px;
+}
+
