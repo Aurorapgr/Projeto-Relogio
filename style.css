@@ -22,7 +22,7 @@ body{
     justify-content: space-evenly;
     height: 200px;
     width: 500px;
-    background-color: rgb(20, 10, 230);
+    background: linear-gradient(120deg,rgb(129, 54, 214),rgb(250, 122, 49));
     border-radius: 10px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
     
